@@ -2,6 +2,62 @@
 
 exports[`testing App component should grab a snapshot of the component. 1`] = `
 <section>
-  Hello World
+  <div
+    id="text1"
+  >
+    Hello World
+  </div>
+  <div
+    id="text2"
+  >
+    This is James
+  </div>
+  <hr />
+  <br />
+  <div
+    id="counter_div"
+  >
+    counter : 
+    0
+     
+    <br />
+    <button
+      id="counter_button"
+      onClick={[Function]}
+    >
+      Increment
+    </button>
+  </div>
+  <hr />
+  <br />
+  <div>
+    <form
+      id="loginForm"
+      onSubmit={[Function]}
+    >
+      Username : 
+      <input
+        id="username"
+        name="username"
+        onChange={[Function]}
+        type="text"
+      />
+      <br />
+      Password : 
+      <input
+        id="password"
+        name="password"
+        onChange={[Function]}
+        type="password"
+      />
+      <br />
+      <button>
+        Submit
+      </button>
+    </form>
+  </div>
+  <hr />
+  <br />
+  <div />
 </section>
 `;
