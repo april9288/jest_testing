@@ -1,5 +1,9 @@
 # Jest_testing
-> Jest testing setup guide
+> Jest testing setup guide (version 3)
+
+- [version 1](https://github.com/april9288/jest_testing/tree/basic_setup) - How to set up Jest and Enzyme
+- [version 2](https://github.com/april9288/jest_testing/tree/basic_testing) - How to test simple components
+- [version 3](https://github.com/april9288/jest_testing/tree/adv_testing) - How to mock Axios with Jest
 
 Configuration for testing is sometimes time consuming. Here, I'm going to talk about how to set up Jest and Enzyme for unit testing for your React app.
 
@@ -7,7 +11,7 @@ And, I'm assuming that
 * you are not using 'create-react-app'.
 * you are using 'webpack' to bundle your React app.
 
-![](v2.png)
+![](v3.png)
 
 If you run this code, then you will see this code coverage.
 
