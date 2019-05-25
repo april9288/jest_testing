@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import Bpp from './components/Bpp';
 import App from './components/App';
 
 const data = [
@@ -10,4 +12,8 @@ const data = [
 	}
 ]
 
-ReactDOM.render(<App data={data}/>, document.getElementById('app'))
+ReactDOM.render(
+	<div>
+		<Bpp />
+		<App data={data}/>
+	</div>, document.getElementById('app'))
