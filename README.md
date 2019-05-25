@@ -7,7 +7,7 @@ And, I'm assuming that
 * you are not using 'create-react-app'.
 * you are using 'webpack' to bundle your React app.
 
-![](v1.png)
+![](v2.png)
 
 If you run this code, then you will see this code coverage.
 
