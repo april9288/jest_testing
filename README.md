@@ -8,6 +8,7 @@ And, I'm assuming that
 * you are using 'webpack' to bundle your React app.
 
 ![](v1.png)
+
 If you run this code, then you will see this code coverage.
 
 ### Step 1
